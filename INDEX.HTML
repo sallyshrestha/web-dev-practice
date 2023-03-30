@@ -40,27 +40,27 @@
           </p>
 
           <div class="card">
-             <form>
-              <div class="input-group">
-                <input type="text" placeholder="First Name"/>
+             <form name="signupform">
+              <div class="input-group" id="firstnamegroup">
+                <input name="firstname" type="text" placeholder="First Name"/>
                <small class="message"></small>
               </div>
 
-              <div class="input-group">
-                <input type="text" placeholder="Last Name"/>
+              <div class="input-group" id="lastnamegroup">
+                <input name="lastname"  type="text" placeholder="Last Name"/>
                <small class="message"></small>
               </div>
 
-              <div class="input-group">
-                <input type="text" placeholder="E-mail Address "/>
+              <div class="input-group" id="emailgroup" >
+                <input name="email" type="text" placeholder="E-mail Address "/>
                <small class="message"></small>
               </div>
 
-              <div class="input-group">
-                <input type="text" placeholder="Password"/>
+              <div class="input-group" id="passwordgroup">
+                <input name="password" type="text" placeholder="Password"/>
                <small class="message"></small>
               </div>
-               <button class="button">Claim your free trial</button>
+               <button id ="submitbutton" class="button">Claim your free trial</button>
               </form>
               <p class="privacy-message">
                 By clicking the button, you are agreeing to our. <a href="">Terms and Services</a>
@@ -71,6 +71,6 @@
         </div>
       </div>
 
-
+     <script src="./script.js"></script>
   </body>
 </html>
